@@ -7,5 +7,5 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
-  cities = ["noida", "delhi", "agra"]
+  cities = ["noida", "delhi", "agra", "kanpur", "gt noida", "faridabad"]
 }

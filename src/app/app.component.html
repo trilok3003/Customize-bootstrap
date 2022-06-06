@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="jumbotron text-center mt-2">
+    <h1 class="display-5">
+     Custom Bootstarp Ui
+    </h1>
+  </div>
+<h1>Input</h1>
+<input type="text" class="form-control">
+<button type="button" class="btn btn-sm btn-success mb-3 btn-block">Add Items</button>
+<select class="custom-select">
+  <option value="">Choose your city</option>
+  <option *ngFor="let city of cities" [ngValue]="city">{{city}}</option>
+</select>
+</div>
